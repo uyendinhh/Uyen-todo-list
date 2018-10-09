@@ -1,6 +1,2 @@
 # Uyen-todo-list <br>
-![Optional Text])
-.. image:: (../master/img/to-do-list.png
-:height: 100px
-:width: 200 px
-:scale: 50 %
+<img height="700" scr="https://github.com/uyendinhh/Uyen-todo-list/blob/master/img/to-do-list.png" />
