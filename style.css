@@ -1,15 +1,18 @@
 body {
-  width: 50%;
+  width: 30%;
   border-left : 5px;
   border-color: #000000;
   border-style: solid;
+  border-radius: 10px;
   font-family: sans-serif;
   padding: 0 0;
-  margin: 10 25% 10 25%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   overflow-x: hidden;
-  background: #ece9e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ece9e6, #ffffff);
+  background: linear-gradient(to right, #ece9e6, #ffffff);
 }
 .app{
   width: 100%;
@@ -26,8 +29,6 @@ h1{
   line-height: 90px;
   color: white;
   background: black;
-  /* margin-left: -5px;
-  margin-right: -5px; */
   height: 90px;
   margin-top: 0;
   padding-left: 20px;
@@ -82,7 +83,7 @@ button:active{
   transform: scale(.98);
 }
 .bottom{
-  width: 100%;
+ß  width: 100%;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
