@@ -14,9 +14,6 @@ body {
   background: -webkit-linear-gradient(to right, #ece9e6, #ffffff);
   background: linear-gradient(to right, #ece9e6, #ffffff);
 }
-.container {
-  background: black;
-}
 .app{
   width: 100%;
   max-width: 500px;
