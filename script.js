@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 const { Component } = React;
 
 class App extends Component {

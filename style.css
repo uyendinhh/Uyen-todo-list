@@ -1,6 +1,7 @@
 body {
   width: 30%;
-  border-left : 5px;
+  min-width: 300px;
+  border : 5px;
   border-color: #000000;
   border-style: solid;
   border-radius: 10px;
@@ -10,21 +11,21 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   overflow-x: hidden;
-  background: #ece9e6;
-  background: -webkit-linear-gradient(to right, #ece9e6, #ffffff);
-  background: linear-gradient(to right, #ece9e6, #ffffff);
+  background: white;
+  box-shadow: 7px 5px 5px gray;
 }
+
 .app{
   width: 100%;
   max-width: 500px;
   margin: 30px auto;
   border-color: #000000;
-  background: white;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 14px 80px rgba(0,0,0,.1);
   border: 1pt solid rgba(0,0,0,.15);
 }
+
 h1{
   line-height: 90px;
   color: white;
@@ -34,14 +35,16 @@ h1{
   padding-left: 20px;
   margin-bottom: 30px;
 }
+
 .header{
   width: calc(100% - 20px);
   height: 170px;
   background: rgba(0,0,0,.04);
-  border-bottom: 1px solid rgb(230,230,230);
+  border-bottom: 1px solid;
   overflow: hidden;
   padding-left: 20px;
 }
+
 input{
   border: none;
   border-bottom: 2px solid rgba(0,0,0,.6);
@@ -53,6 +56,11 @@ input{
   padding-bottom: 5px;
   background: transparent;
 }
+.container {
+  height: 100%;
+  background:#f2f2f2;
+}
+
 input:focus{
   border-bottom: 2px solid blue;
   outline: none;
@@ -77,11 +85,13 @@ button:hover{
   color: blue;
   border-color: blue;
   cursor: pointer;
-  box-shadow: 4px 4px 0px blue;
+  box-shadow: 0px 0px 0px blue;
 }
 button:active{
   transform: scale(.98);
+  box-shadow:
 }
+
 .bottom{
   width: 100%;
   display: flex;
@@ -89,6 +99,7 @@ button:active{
   overflow-y: scroll;
   height: 600px;
 }
+
 .item{
   width: calc(100%);
   height: 70px;
@@ -103,9 +114,9 @@ button:active{
   transition: border .1s;
   z-index: 1;
 }
+
 .itemActive{
-  margin-top: 2%;
-  margin-left: 2%;
+  margin: 2% 2% 2% 2%;
   animation: popIn .3s;
   width: inherit;
 }
@@ -125,12 +136,14 @@ button:active{
   width: calc(100% - 140px);
   font-weight: 500;
 }
+
 .delButton:hover{
   color: black;
   border-color: black;
-  cursor: pointer;
-  box-shadow: 4px 4px 0px red;
+  cursor: cell;
+  box-shadow: 4px 4px 0px blue;
 }
+
 @keyframes popIn{
   0%{
     opacity: .7;
@@ -153,7 +166,8 @@ button:active{
 }
 .addButton:hover{
   box-shadow: none;
+  cursor: cell;
 }
 .addButton:active{
-  transform: scale(.9);
+  transform: scale(0.8);
 }
